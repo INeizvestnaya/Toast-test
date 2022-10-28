@@ -45,7 +45,11 @@ function App() {
       />
       <div>
         <label>Color: </label>
-        <input type="color" onChange={(e) => setColor(e.target.value)} />
+        <input
+          type="color"
+          id="color"
+          onChange={(e) => setColor(e.target.value)}
+        />
       </div>
       <h4>Toast container props:</h4>
       <Select
